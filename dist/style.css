@@ -1,0 +1,52 @@
+.jogo{
+  display: flex;
+  flex-direction: row;  
+}
+
+.jogo-tabuleiro{
+  top: -80px;
+  position:relative;
+}
+
+
+.jogo-info{
+  position:absolute;
+  margin-left: 80px;
+  top:-10px;
+  left: 100px;
+}
+
+.jogo-opcoes{
+  color: red;
+  font-weight: bold;
+  position:relative;
+  left: 120px;
+  top: 73px;
+  padding: 5px;
+
+}
+.botao{
+  position:relative;
+  margin-bottom:5px;
+  margin-top:5px; 
+  
+}
+.linha-tabuleiro:after{
+  clear: both;
+  content: "";
+  display: block;
+}
+.quadrado{
+  background-color: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  float: left;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
